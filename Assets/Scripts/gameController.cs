@@ -6,6 +6,10 @@ public class gameController : MonoBehaviour
 {
     public GameObject obj;
     public Camera mainCamera;
+
+    private string[] turnOrder = new string[6];
+    private string turn = turnOrder[0];
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +21,7 @@ public class gameController : MonoBehaviour
     {
         PlanningPhase();
         ActionPhase();
+        
     }
 
     void WestorosPhase()
