@@ -212,6 +212,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55923163}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &100495603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100495605}
+  - component: {fileID: 100495604}
+  m_Layer: 0
+  m_Name: DataController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &100495604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100495603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453a0b2c42a00d4e9611b7b48815db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  westeros: 
+--- !u!4 &100495605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100495603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3774892, y: 2.1297493, z: -0.5999563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &151308932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1165,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 531341484}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 807475047}
+        m_MethodName: WestorosPhase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &531341484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,7 +1798,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725828021}
-  - component: {fileID: 725828020}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1751,20 +1805,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &725828020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725828019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb68b676f55b674489bdbd11e832e651, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  mainCamera: {fileID: 963194227}
 --- !u!4 &725828021
 Transform:
   m_ObjectHideFlags: 0
@@ -2070,9 +2110,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 807475045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcbf06bd1143b84ba4437e62ebad94a, type: 3}
+  m_Script: {fileID: 11500000, guid: 05cdc8f43c2b5fd4daf0b40937b0d058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  mainCamera: {fileID: 0}
+  NumberOfPlayers: 6
+  CurrentPlayerId: 0
+  isTurnOver: 0
+  timeForWesteros: 0
 --- !u!1 &820297445
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,7 +2424,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 934256378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85ff7e36022e3aa418b0912211301c22, type: 3}
+  m_Script: {fileID: 11500000, guid: ed9693245f1fbfb43a418398c660d540, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &934256380

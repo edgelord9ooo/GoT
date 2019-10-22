@@ -1,0 +1,118 @@
+<GameDataCollection>
+    <WesterosCardsI>
+        <WesterosCardI>
+            <Name>Mustering</Name>
+            <Description>Recruit new units in Strongholds and Castles</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Supply</Name>
+            <Description>Adjust Supply track. Reconcile armies</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Winter Is Coming</Name>
+            <Description>Immediately shuffle this deck. Then draw and resolve a new card.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Mustering</Name>
+            <Description>Recruit new units in Strongholds and Castles</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>A Throne Of Blades</Name>
+            <Description>The holder of the Iron Throne token chooses whether a, everyone updates their 
+            supply and then reconcile armies or b, everyone musters units, or c, this card has no effect</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Last Days of Summer</Name>
+            <Description>Nothing Happens</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Supply</Name>
+            <Description>Adjust Supply track. Reconcile armies.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Supply</Name>
+            <Description>Adjust Supply track. Reconcile armies.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
+            <Name>Mustering</Name>
+            <Description>Recruit new units in Strongholds and Castles</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardI>
+    </WesterosCardsI>
+    <WesterosCardsII>
+        <WesterosCardII>
+            <Name>Game of Thrones</Name>
+            <Description>Each player collects one Power token for each Power
+            icon printed on areas he controls.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Dark Wings, Dark Words</Name>
+            <Description>The holder of the Messenger Raven token chooses whether a,
+            everyone bids on the three Influence tracks, b, everyone collects one
+            Power token for every power icon present in areas they control, or c,
+            this card has no effect.</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Winter is Coming</Name>
+            <Description>Immediately shuffle this deck then draw and resolve
+            a new card</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Game of Thrones</Name>
+            <Description>Each player collects one Power token for each Power
+            icon printed on areas he controls.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Dark Wings, Dark Words</Name>
+            <Description>The holder of the Messenger Raven token chooses whether a,
+            everyone bids on the three Influence tracks, b, everyone collects one
+            Power token for every power icon present in areas they control, or c,
+            this card has no effect.</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Last Days of Summer</Name>
+            <Description>Nothing happens</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Clash of Kings</Name>
+            <Description>Bid on the three influence tracks.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Game of Thrones</Name>
+            <Description>Each player collects one Power token for each Power
+            icon printed on areas he controls.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Clash of Kings</Name>
+            <Description>Bid on the three influence tracks.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Clash of Kings</Name>
+            <Description>Bid on the three influence tracks.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+        <WesterosCardII>
+            <Name>Game of Thrones</Name>
+            <Description>Each player collects one Power token for each Power
+            icon printed on areas he controls.</Description>
+            <WildlingIcon>no</WildlingIcon>
+        </WesterosCardII>
+    </WesterosCardsII>
+</GameDataCollection>
