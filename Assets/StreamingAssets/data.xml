@@ -6,6 +6,12 @@
             <WildlingIcon>no</WildlingIcon>
         </WesterosCardI>
         <WesterosCardI>
+            <Name>A Throne of Blades</Name>
+            <Description>The holder of the Iron Throne token chooses whether a, everyone updates their supply then reconciles armies,
+            b, everyone musters units, or c, this card has no effect</Description>
+            <WildlingIcon>yes</WildlingIcon>
+        </WesterosCardI>
+        <WesterosCardI>
             <Name>Supply</Name>
             <Description>Adjust Supply track. Reconcile armies</Description>
             <WildlingIcon>no</WildlingIcon>
@@ -115,4 +121,172 @@
             <WildlingIcon>no</WildlingIcon>
         </WesterosCardII>
     </WesterosCardsII>
+    <WesterosCardsIII>
+        <WesterosCardIII>
+            <Name>Wildings Attack</Name>
+            <Description>The wildlings attack Westeros</Description>
+            <WildlingIcon>No</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Put To The Swords</Name>
+            <Description>The Holder of the Valyrian Steel Blade chooses one of the follwing conditions 
+            for this Planning Phase. a, Defense orders cannot be played, b,March + 1 orders cannot be 
+            played or c, no restrictions</Description>
+            <WildlingIcon>No</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Wildings Attack</Name>
+            <Description>The wildlings attack Westeros</Description>
+            <WildlingIcon>No</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Rains of Autumn</Name>
+            <Description>March +1 orders cannot be played this Planning Phase</Description>
+            <WildlingIcon>Yes</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Put To The Swords</Name>
+            <Description>The Holder of the Valyrian Steel Blade chooses one of the follwing conditions 
+            for this Planning Phase. a, Defense orders cannot be played, b,March + 1 orders cannot be 
+            played or c, no restrictions</Description>
+            <WildlingIcon>No</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Wildings Attack</Name>
+            <Description>The wildlings attack Westeros</Description>
+            <WildlingIcon>No</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Web of Lies</Name>
+            <Description>Support Orders cannot be played during this Planning Phase</Description>
+            <WildlingIcon>Yes</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Feast for Crows</Name>
+            <Description>Consolidate Power Orders cannot be played this Planning Phase</Description>
+            <WildlingIcon>Yes</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Sea of Storms</Name>
+            <Description>Raid orders cannot be played during this planning phase</Description>
+            <WildlingIcon>Yes</WildlingIcon>
+        </WesterosCardIII>
+        <WesterosCardIII>
+            <Name>Storm of Swords</Name>
+            <Description>Defense Orders cannot be played during this Planning Phase</Description>
+            <WildlingIcon>Yes</WildlingIcon>
+        </WesterosCardIII>
+    </WesterosCardsIII>
+    <WildlingCards>
+        <WildlingCard>
+            <Name>A King Beyond The Wall</Name>
+            <WildlingVictoryLowestBidder>
+                Moves his tokens to the lowest position of every influence track.
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                In turn order, each player chooses either the Fiefdom's or King's Court Influence track and
+                moves his token to the lowest position of that track
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                Moves his token to the top of one influence track of his choice, then takes the appropriate Dominance token
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Skinchanger Scout</Name>
+            <WildlingVictoryLowestBidder>
+                Discards all available Power tokens
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Discards 2 available Power tokens or as many as they are able.
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                All power tokens he bid on this attack are immediately returned to his available power.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Rattleshirt's Raiders</Name>
+            <WildlingVictoryLowestBidder>
+                Is reduced 2 positions on the Supply track(to no lower than 0)
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Is reduced 1 position on the Supply track (to no lower than 0). Then reconcile armies.
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                Is increased 1 position on the supply track(to no higher than 6)
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Mammoth Riders</Name>
+            <WildlingVictoryLowestBidder>
+                Destroys 3 of his untis anywhere
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Destroys 2 of their units anywhere
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                May retrieve 1 House card of his choice from his House discard pile.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Silence At The Wall</Name>
+            <WildlingVictoryLowestBidder>
+                Nothing Happens
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Nothing happens
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                Nothing happens
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Massing On The Milkwater</Name>
+            <WildlingVictoryLowestBidder>
+                If he has more than one House card in his hand, he discards all cards with the highest combat strength
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                If they have more than one House card in their hand, they must choose and discard one of those cards.
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                Returns his entire House card discard pile into his hand.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Crow Killers</Name>
+            <WildlingVictoryLowestBidder>
+                Replaces all his knights with available footmen. Any knight unable to be replaced is destroyed
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Replaces 2 of their knights with available footmen. Any knight unable to be replcaed is destroyed
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                May immediately replace up to 2 of his Footmen, anywhere with available KNights.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>Preemptive Strike</Name>
+            <WildlingVictoryLowestBidder>
+                chooses one of the following. a, destroy 2 of his units anywhere, b, is reduced 2 positions on his highest influence track
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Nothing happens
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                The wildlings immediately attack again with a strength of 6. You do not participate in the bidding against this attack
+                nor do you receive any rewards or penalties.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+        <WildlingCard>
+            <Name>The Horde Descends</Name>
+            <WildlingVictoryLowestBidder>
+                Destroys 2 of his units at one of his Castles or Strongholds. If unable, he destroys 2 of his units anywhere
+            </WildlingVictoryLowestBidder>
+            <WildlingVictoryEveryoneElse>
+                Destroys 1 of their units anywhere
+            </WildlingVictoryEveryoneElse>
+            <NightsWatchVictoryHighestBidder>
+                May muster forces following normal mustering rules in any one Castle of Stronghold area he controls.
+            </NightsWatchVictoryHighestBidder>
+        </WildlingCard>
+    </WildlingCards>
 </GameDataCollection>
