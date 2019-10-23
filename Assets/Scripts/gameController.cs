@@ -8,8 +8,8 @@ public class gameController : MonoBehaviour
     public GameObject obj;
     public Camera mainCamera;
     public int NumberOfPlayers = 6;
-    public int CurrentPlayerId = 0;
-    int[] players;
+    public int CurrPlayer = 0;
+    string[] players;
     public bool isTurnOver = false;
     public bool timeForWesteros = false;
     
@@ -17,13 +17,13 @@ public class gameController : MonoBehaviour
     void Start()
     {
         // WestorosPhase();
-        players = new int[6];
-        players[0] = 0;
-        players[1] = 1;
-        players[2] = 2;
-        players[3] = 3;
-        players[4] = 4;
-        players[5] = 5;
+        players = new string[6];
+        players[0] = "Lannisters";
+        players[1] = "Baratheons";
+        players[2] = "Tyrells";
+        players[3] = "Martells";
+        players[4] = "Starks";
+        players[5] = "Greyjoys";
 
     }
 
@@ -39,7 +39,19 @@ public class gameController : MonoBehaviour
         
     }
 
-    public void WestorosPhase()
+    public void nextTurn() 
+    {
+        validateTurnFinishReady();
+        CurrPlayer = (CurrPlayer + 1) % NumberOfPlayers;
+        Debug.Log(players[CurrPlayer] + "finsihing their turn.");
+    }
+
+    void validateTurnFinishReady() 
+    {
+        Debug.Log("validating everything is ready for turn finish.");
+    }
+
+    void WestorosPhase()
     {
         Debug.Log("Westeros Phase INitiateing");
     }
