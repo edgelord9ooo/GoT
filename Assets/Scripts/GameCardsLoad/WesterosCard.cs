@@ -1,7 +1,7 @@
-﻿using System.Xml.Serialization;
+using System.Xml.Serialization;
 using System.Xml;
 
-public class WesterosCardII
+public class WesterosCard
 {  	
     public string Name;
     public string Description;

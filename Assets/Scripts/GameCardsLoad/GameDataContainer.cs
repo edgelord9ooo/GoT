@@ -6,9 +6,9 @@
  {
  	[XmlArray("WesterosCardsI")]
  	[XmlArrayItem("WesterosCardI")]
- 	public List<WesterosCardI> WesterosCardsI = new List<WesterosCardI>();
+ 	public List<WesterosCard> WesterosCardsI = new List<WesterosCard>();
 
     [XmlArray("WesterosCardsII")]
  	[XmlArrayItem("WesterosCardII")]
- 	public List<WesterosCardII> WesterosCardsII = new List<WesterosCardII>();
+ 	public List<WesterosCard> WesterosCardsII = new List<WesterosCard>();
  }

@@ -8,12 +8,9 @@ public class NextTurnButton : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindObjectOfType<gameController>();
-        DataController = GameObject.FindObjectOfType<DataController>();
-        Debug.Log(theStateManager);
     }
 
     gameController theStateManager;
-    DataController DataController;
 
     // Update is called once per frame
     void Update()
@@ -23,6 +20,5 @@ public class NextTurnButton : MonoBehaviour
 
     void OnMouseUp() {
         theStateManager.nextTurn();
-        Debug.Log(theStateManager.CurrPlayer + " is finishing their turn.");
     }
 }
