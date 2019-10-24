@@ -86,6 +86,13 @@ public class gameController : MonoBehaviour
         Debug.Log("Westeros card I picked: " + GameData.WesterosCardsI[GameRoundNumber].Name);
         Debug.Log("Westeros card II picked: " + GameData.WesterosCardsII[GameRoundNumber].Name);
         GameRoundNumber += 1;
+        if (GameRoundNumber == 10) {
+            EndGameProtocol();
+        }
+    }
+
+    void EndGameProtocol() {
+        Debug.Log("game is ended. Time to determine winner");
     }
 
     void PlanningPhase()
