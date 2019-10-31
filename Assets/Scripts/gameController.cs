@@ -14,6 +14,7 @@ public class gameController : MonoBehaviour
     DataController DataController;
     WesterosCardsIContainer GameData;
     private int GameRoundNumber;
+    private string MoveOrder;
     
     // Start is called before the first frame update
     void Start()
@@ -63,12 +64,17 @@ public class gameController : MonoBehaviour
         }
     }
 
+    public void assignOrder(string order) {
+        MoveOrder = order;
+        Debug.Log(order + " assigned");
+    }
+
     public void nextTurn() 
     {
         validateTurnFinishReady();
         CurrPlayer = (CurrPlayer + 1) % NumberOfPlayers;
         int WesterosPhaseChecker = CurrPlayer;
-        Debug.Log(players[CurrPlayer] + " finsihing their turn.");
+        Debug.Log(players[CurrPlayer].family + " finsihing their turn.");
         if (WesterosPhaseChecker == 5) 
         {
             WestorosPhase();
