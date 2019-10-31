@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 55923167}
   - component: {fileID: 55923166}
   - component: {fileID: 55923165}
+  - component: {fileID: 55923168}
   m_Layer: 0
   m_Name: Karhold
   m_TagString: Untagged
@@ -212,6 +213,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55923163}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &55923168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55923163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Karhold
 --- !u!1 &100495603
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +282,7 @@ GameObject:
   - component: {fileID: 151308936}
   - component: {fileID: 151308935}
   - component: {fileID: 151308934}
+  - component: {fileID: 151308937}
   m_Layer: 0
   m_Name: The Stony Shore
   m_TagString: Untagged
@@ -348,6 +363,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151308932}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &151308937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151308932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Stony Shore
 --- !u!1 &220867782
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +388,7 @@ GameObject:
   - component: {fileID: 220867786}
   - component: {fileID: 220867785}
   - component: {fileID: 220867784}
+  - component: {fileID: 220867787}
   m_Layer: 0
   m_Name: Blackwater
   m_TagString: Untagged
@@ -440,6 +469,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220867782}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &220867787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220867782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Blackwater
 --- !u!1 &222304497
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +494,7 @@ GameObject:
   - component: {fileID: 222304501}
   - component: {fileID: 222304500}
   - component: {fileID: 222304499}
+  - component: {fileID: 222304502}
   m_Layer: 0
   m_Name: Three Towers
   m_TagString: Untagged
@@ -532,6 +575,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222304497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &222304502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222304497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Three Towers
 --- !u!1 &284352646
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +600,7 @@ GameObject:
   - component: {fileID: 284352650}
   - component: {fileID: 284352649}
   - component: {fileID: 284352648}
+  - component: {fileID: 284352651}
   m_Layer: 0
   m_Name: Oldtown
   m_TagString: Untagged
@@ -624,6 +681,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284352646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &284352651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284352646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Oldtown
 --- !u!1 &290406534
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +706,7 @@ GameObject:
   - component: {fileID: 290406538}
   - component: {fileID: 290406537}
   - component: {fileID: 290406536}
+  - component: {fileID: 290406539}
   m_Layer: 0
   m_Name: The Reach
   m_TagString: Untagged
@@ -716,6 +787,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290406534}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &290406539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290406534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 'The Reach '
 --- !u!1 &299749767
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +812,7 @@ GameObject:
   - component: {fileID: 299749771}
   - component: {fileID: 299749770}
   - component: {fileID: 299749769}
+  - component: {fileID: 299749772}
   m_Layer: 0
   m_Name: Stoney Sept
   m_TagString: Untagged
@@ -808,6 +893,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299749767}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &299749772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299749767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Stoney Sept
 --- !u!1 &309975061
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +918,7 @@ GameObject:
   - component: {fileID: 309975065}
   - component: {fileID: 309975064}
   - component: {fileID: 309975063}
+  - component: {fileID: 309975066}
   m_Layer: 0
   m_Name: Sea of Dorne
   m_TagString: Untagged
@@ -900,6 +999,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309975061}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &309975066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309975061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sea of Dorne
 --- !u!1 &316410907
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +1024,7 @@ GameObject:
   - component: {fileID: 316410911}
   - component: {fileID: 316410910}
   - component: {fileID: 316410909}
+  - component: {fileID: 316410912}
   m_Layer: 0
   m_Name: Prince's Pass
   m_TagString: Untagged
@@ -992,6 +1105,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316410907}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &316410912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316410907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prince's Pass
 --- !u!1 &524385332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1130,7 @@ GameObject:
   - component: {fileID: 524385336}
   - component: {fileID: 524385335}
   - component: {fileID: 524385334}
+  - component: {fileID: 524385337}
   m_Layer: 0
   m_Name: Salt Shore
   m_TagString: Untagged
@@ -1084,6 +1211,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524385332}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &524385337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524385332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Salt Shore
 --- !u!1 &531341481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1482,7 @@ GameObject:
   - component: {fileID: 586822935}
   - component: {fileID: 586822934}
   - component: {fileID: 586822933}
+  - component: {fileID: 586822936}
   m_Layer: 0
   m_Name: The Mountains of The Moon
   m_TagString: Untagged
@@ -1422,6 +1563,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586822931}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &586822936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586822931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Mountains Of The Moon
 --- !u!1 &628252184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,6 +1588,7 @@ GameObject:
   - component: {fileID: 628252188}
   - component: {fileID: 628252187}
   - component: {fileID: 628252186}
+  - component: {fileID: 628252189}
   m_Layer: 0
   m_Name: The Golden Sound
   m_TagString: Untagged
@@ -1514,6 +1669,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628252184}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &628252189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628252184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Golden Sound
 --- !u!1 &673253168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1694,7 @@ GameObject:
   - component: {fileID: 673253172}
   - component: {fileID: 673253171}
   - component: {fileID: 673253170}
+  - component: {fileID: 673253173}
   m_Layer: 0
   m_Name: Seagard
   m_TagString: Untagged
@@ -1606,6 +1775,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673253168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &673253173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673253168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Seagard
 --- !u!1 &702206559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,6 +1800,7 @@ GameObject:
   - component: {fileID: 702206563}
   - component: {fileID: 702206562}
   - component: {fileID: 702206561}
+  - component: {fileID: 702206564}
   m_Layer: 0
   m_Name: Dornish Marches
   m_TagString: Untagged
@@ -1698,6 +1881,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702206559}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &702206564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702206559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Dornish Marches
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,6 +2028,7 @@ GameObject:
   - component: {fileID: 792892127}
   - component: {fileID: 792892126}
   - component: {fileID: 792892125}
+  - component: {fileID: 792892128}
   m_Layer: 0
   m_Name: Riverrun
   m_TagString: Untagged
@@ -1912,6 +2109,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792892123}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &792892128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792892123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Riverrun
 --- !u!1 &793984977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2200,7 @@ GameObject:
   - component: {fileID: 806243634}
   - component: {fileID: 806243633}
   - component: {fileID: 806243632}
+  - component: {fileID: 806243635}
   m_Layer: 0
   m_Name: The Fingers
   m_TagString: Untagged
@@ -2070,6 +2281,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806243630}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &806243635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806243630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Fingers
 --- !u!1 &807475045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,6 +2354,7 @@ GameObject:
   - component: {fileID: 820297449}
   - component: {fileID: 820297448}
   - component: {fileID: 820297447}
+  - component: {fileID: 820297450}
   m_Layer: 0
   m_Name: Winterfell
   m_TagString: Untagged
@@ -2210,6 +2435,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820297445}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &820297450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820297445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Winterfell
 --- !u!1 &878445416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,6 +2460,7 @@ GameObject:
   - component: {fileID: 878445420}
   - component: {fileID: 878445419}
   - component: {fileID: 878445418}
+  - component: {fileID: 878445421}
   m_Layer: 0
   m_Name: Kingswood
   m_TagString: Untagged
@@ -2302,6 +2541,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878445416}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &878445421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878445416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Kingswood
 --- !u!1 &904805655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,6 +2566,7 @@ GameObject:
   - component: {fileID: 904805659}
   - component: {fileID: 904805658}
   - component: {fileID: 904805657}
+  - component: {fileID: 904805660}
   m_Layer: 0
   m_Name: Harrenhal
   m_TagString: Untagged
@@ -2394,6 +2647,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904805655}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &904805660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904805655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Harrenhal
 --- !u!1 &934256378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,6 +2777,7 @@ GameObject:
   - component: {fileID: 945994608}
   - component: {fileID: 945994607}
   - component: {fileID: 945994606}
+  - component: {fileID: 945994609}
   m_Layer: 0
   m_Name: Ironman's Bay
   m_TagString: Untagged
@@ -2591,6 +2858,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945994604}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &945994609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945994604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Ironman's Bay
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2686,6 +2966,7 @@ GameObject:
   - component: {fileID: 984270813}
   - component: {fileID: 984270812}
   - component: {fileID: 984270811}
+  - component: {fileID: 984270814}
   m_Layer: 0
   m_Name: Widow's Watch
   m_TagString: Untagged
@@ -2766,6 +3047,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984270809}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &984270814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984270809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Widow's Watch
 --- !u!1 &1028161096
 GameObject:
   m_ObjectHideFlags: 0
@@ -2778,6 +3072,7 @@ GameObject:
   - component: {fileID: 1028161100}
   - component: {fileID: 1028161099}
   - component: {fileID: 1028161098}
+  - component: {fileID: 1028161101}
   m_Layer: 0
   m_Name: Sunset Sea
   m_TagString: Untagged
@@ -2858,6 +3153,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028161096}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1028161101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028161096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sunset Sea
 --- !u!1 &1055243615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +3178,7 @@ GameObject:
   - component: {fileID: 1055243619}
   - component: {fileID: 1055243618}
   - component: {fileID: 1055243617}
+  - component: {fileID: 1055243620}
   m_Layer: 0
   m_Name: The Narrow Sea
   m_TagString: Untagged
@@ -2950,6 +3259,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055243615}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1055243620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055243615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Narrow Sea
 --- !u!1 &1097918283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,6 +3284,7 @@ GameObject:
   - component: {fileID: 1097918287}
   - component: {fileID: 1097918286}
   - component: {fileID: 1097918285}
+  - component: {fileID: 1097918288}
   m_Layer: 0
   m_Name: White Harbour
   m_TagString: Untagged
@@ -3042,6 +3365,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097918283}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1097918288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097918283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: White Harbour
 --- !u!1 &1119045047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,6 +3390,7 @@ GameObject:
   - component: {fileID: 1119045051}
   - component: {fileID: 1119045050}
   - component: {fileID: 1119045049}
+  - component: {fileID: 1119045052}
   m_Layer: 0
   m_Name: Redwyne Straights
   m_TagString: Untagged
@@ -3134,6 +3471,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119045047}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1119045052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119045047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Redwyne Straights
 --- !u!1 &1146736622
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,6 +3496,7 @@ GameObject:
   - component: {fileID: 1146736626}
   - component: {fileID: 1146736625}
   - component: {fileID: 1146736624}
+  - component: {fileID: 1146736627}
   m_Layer: 0
   m_Name: Bay Of Ice
   m_TagString: Untagged
@@ -3226,6 +3577,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146736622}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1146736627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146736622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Bay of Ice
 --- !u!1 &1160703274
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,6 +3602,7 @@ GameObject:
   - component: {fileID: 1160703278}
   - component: {fileID: 1160703277}
   - component: {fileID: 1160703276}
+  - component: {fileID: 1160703279}
   m_Layer: 0
   m_Name: Castle Black
   m_TagString: Untagged
@@ -3318,6 +3683,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160703274}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1160703279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160703274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Castle Black
 --- !u!1 &1192445144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3330,6 +3708,7 @@ GameObject:
   - component: {fileID: 1192445148}
   - component: {fileID: 1192445147}
   - component: {fileID: 1192445146}
+  - component: {fileID: 1192445149}
   m_Layer: 0
   m_Name: Crackclaw Point
   m_TagString: Untagged
@@ -3410,6 +3789,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192445144}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1192445149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192445144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Cracklaw Point
 --- !u!1 &1238681361
 GameObject:
   m_ObjectHideFlags: 0
@@ -3422,6 +3814,7 @@ GameObject:
   - component: {fileID: 1238681365}
   - component: {fileID: 1238681364}
   - component: {fileID: 1238681363}
+  - component: {fileID: 1238681366}
   m_Layer: 0
   m_Name: King's Landing
   m_TagString: Untagged
@@ -3502,6 +3895,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238681361}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1238681366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238681361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: King's Landing
 --- !u!1 &1269035745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,6 +3920,7 @@ GameObject:
   - component: {fileID: 1269035749}
   - component: {fileID: 1269035748}
   - component: {fileID: 1269035747}
+  - component: {fileID: 1269035750}
   m_Layer: 0
   m_Name: Lannisport
   m_TagString: Untagged
@@ -3594,6 +4001,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269035745}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1269035750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269035745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Lannisport
 --- !u!1 &1330823749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,6 +4126,7 @@ GameObject:
   - component: {fileID: 1404204199}
   - component: {fileID: 1404204198}
   - component: {fileID: 1404204197}
+  - component: {fileID: 1404204200}
   m_Layer: 0
   m_Name: Moat Cailin
   m_TagString: Untagged
@@ -3786,6 +4207,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404204195}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1404204200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404204195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Moat Cailin
 --- !u!1 &1424972788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,6 +4312,7 @@ GameObject:
   - component: {fileID: 1473270464}
   - component: {fileID: 1473270463}
   - component: {fileID: 1473270462}
+  - component: {fileID: 1473270465}
   m_Layer: 0
   m_Name: Highgarden
   m_TagString: Untagged
@@ -3958,6 +4393,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473270460}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1473270465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473270460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Highgarden
 --- !u!1 &1605174267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,6 +4418,7 @@ GameObject:
   - component: {fileID: 1605174271}
   - component: {fileID: 1605174270}
   - component: {fileID: 1605174269}
+  - component: {fileID: 1605174272}
   m_Layer: 0
   m_Name: The Arbor
   m_TagString: Untagged
@@ -4050,6 +4499,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605174267}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1605174272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605174267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Arbor
 --- !u!1 &1618669355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4062,6 +4524,7 @@ GameObject:
   - component: {fileID: 1618669359}
   - component: {fileID: 1618669358}
   - component: {fileID: 1618669357}
+  - component: {fileID: 1618669360}
   m_Layer: 0
   m_Name: Pyke
   m_TagString: Untagged
@@ -4142,6 +4605,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618669355}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1618669360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618669355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Pyke
 --- !u!1 &1624198777
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,6 +4630,7 @@ GameObject:
   - component: {fileID: 1624198781}
   - component: {fileID: 1624198780}
   - component: {fileID: 1624198779}
+  - component: {fileID: 1624198782}
   m_Layer: 0
   m_Name: Storm's End
   m_TagString: Untagged
@@ -4234,6 +4711,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624198777}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1624198782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624198777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Storm's End
 --- !u!1 &1646278754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4246,6 +4736,7 @@ GameObject:
   - component: {fileID: 1646278758}
   - component: {fileID: 1646278757}
   - component: {fileID: 1646278756}
+  - component: {fileID: 1646278759}
   m_Layer: 0
   m_Name: Blackwater Bay
   m_TagString: Untagged
@@ -4326,6 +4817,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646278754}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1646278759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646278754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Blackwater Bay
 --- !u!1 &1749398122
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,6 +4842,7 @@ GameObject:
   - component: {fileID: 1749398126}
   - component: {fileID: 1749398125}
   - component: {fileID: 1749398124}
+  - component: {fileID: 1749398127}
   m_Layer: 0
   m_Name: The Eyrie
   m_TagString: Untagged
@@ -4418,6 +4923,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749398122}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1749398127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749398122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Eyrie
 --- !u!1 &1756851669
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,6 +4948,7 @@ GameObject:
   - component: {fileID: 1756851673}
   - component: {fileID: 1756851672}
   - component: {fileID: 1756851671}
+  - component: {fileID: 1756851674}
   m_Layer: 0
   m_Name: Starfall
   m_TagString: Untagged
@@ -4510,6 +5029,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756851669}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1756851674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756851669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Starfall
 --- !u!1 &1789423356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,6 +5054,7 @@ GameObject:
   - component: {fileID: 1789423360}
   - component: {fileID: 1789423359}
   - component: {fileID: 1789423358}
+  - component: {fileID: 1789423361}
   m_Layer: 0
   m_Name: Shipbreaker Bay
   m_TagString: Untagged
@@ -4602,6 +5135,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789423356}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1789423361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789423356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Shipbreaker Bay
 --- !u!1 &1812666921
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,6 +5160,7 @@ GameObject:
   - component: {fileID: 1812666925}
   - component: {fileID: 1812666924}
   - component: {fileID: 1812666923}
+  - component: {fileID: 1812666926}
   m_Layer: 0
   m_Name: The Twins
   m_TagString: Untagged
@@ -4694,6 +5241,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812666921}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1812666926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812666921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Twins
 --- !u!1 &1830876499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4706,6 +5266,7 @@ GameObject:
   - component: {fileID: 1830876503}
   - component: {fileID: 1830876502}
   - component: {fileID: 1830876501}
+  - component: {fileID: 1830876504}
   m_Layer: 0
   m_Name: Flint's Finger
   m_TagString: Untagged
@@ -4786,6 +5347,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830876499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1830876504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830876499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Flint's Finger
 --- !u!1 &1897510368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,6 +5449,7 @@ GameObject:
   - component: {fileID: 1946168658}
   - component: {fileID: 1946168657}
   - component: {fileID: 1946168656}
+  - component: {fileID: 1946168659}
   m_Layer: 0
   m_Name: Searoad Marches
   m_TagString: Untagged
@@ -4955,6 +5530,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946168654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1946168659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946168654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Searoad Marches
 --- !u!1 &1951612130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4967,6 +5555,7 @@ GameObject:
   - component: {fileID: 1951612134}
   - component: {fileID: 1951612133}
   - component: {fileID: 1951612132}
+  - component: {fileID: 1951612135}
   m_Layer: 0
   m_Name: West Summer Sea
   m_TagString: Untagged
@@ -5047,6 +5636,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951612130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1951612135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951612130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: West Summer Sea
 --- !u!1 &1965379328
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,6 +5661,7 @@ GameObject:
   - component: {fileID: 1965379332}
   - component: {fileID: 1965379331}
   - component: {fileID: 1965379330}
+  - component: {fileID: 1965379333}
   m_Layer: 0
   m_Name: The Shivering Sea
   m_TagString: Untagged
@@ -5139,6 +5742,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965379328}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1965379333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965379328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Shivering Sea
 --- !u!1 &1967896428
 GameObject:
   m_ObjectHideFlags: 0
@@ -5151,6 +5767,7 @@ GameObject:
   - component: {fileID: 1967896432}
   - component: {fileID: 1967896431}
   - component: {fileID: 1967896430}
+  - component: {fileID: 1967896433}
   m_Layer: 0
   m_Name: Yronwood
   m_TagString: Untagged
@@ -5231,6 +5848,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967896428}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1967896433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967896428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Yronwood
 --- !u!1 &1975125565
 GameObject:
   m_ObjectHideFlags: 0
@@ -5243,6 +5873,7 @@ GameObject:
   - component: {fileID: 1975125569}
   - component: {fileID: 1975125568}
   - component: {fileID: 1975125567}
+  - component: {fileID: 1975125570}
   m_Layer: 0
   m_Name: Greywater Watch
   m_TagString: Untagged
@@ -5323,6 +5954,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975125565}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1975125570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975125565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Greywater Watch
 --- !u!1 &1997922977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5428,6 +6072,7 @@ GameObject:
   - component: {fileID: 2011896556}
   - component: {fileID: 2011896555}
   - component: {fileID: 2011896554}
+  - component: {fileID: 2011896557}
   m_Layer: 0
   m_Name: Sunspear
   m_TagString: Untagged
@@ -5508,6 +6153,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011896552}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2011896557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011896552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sunspear
 --- !u!1 &2032551673
 GameObject:
   m_ObjectHideFlags: 0
@@ -5520,6 +6178,7 @@ GameObject:
   - component: {fileID: 2032551677}
   - component: {fileID: 2032551676}
   - component: {fileID: 2032551675}
+  - component: {fileID: 2032551678}
   m_Layer: 0
   m_Name: Dragonstone
   m_TagString: Untagged
@@ -5600,6 +6259,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032551673}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2032551678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032551673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Dragonstone
 --- !u!1 &2074754772
 GameObject:
   m_ObjectHideFlags: 0
@@ -5612,6 +6284,7 @@ GameObject:
   - component: {fileID: 2074754776}
   - component: {fileID: 2074754775}
   - component: {fileID: 2074754774}
+  - component: {fileID: 2074754777}
   m_Layer: 0
   m_Name: East Summer Sea
   m_TagString: Untagged
@@ -5692,6 +6365,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074754772}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2074754777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074754772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: East Summer Sea
 --- !u!1 &2142965491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5704,6 +6390,7 @@ GameObject:
   - component: {fileID: 2142965495}
   - component: {fileID: 2142965494}
   - component: {fileID: 2142965493}
+  - component: {fileID: 2142965496}
   m_Layer: 0
   m_Name: The Boneway
   m_TagString: Untagged
@@ -5784,6 +6471,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142965491}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2142965496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142965491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09685e384edf745a68dc7ce7669970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: The Boneway
 --- !u!1001 &7457545701160410601
 PrefabInstance:
   m_ObjectHideFlags: 0

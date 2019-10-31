@@ -75,6 +75,12 @@ public class gameController : MonoBehaviour
         }
     }
 
+    public void processRegionClick(string regionName)
+    {
+        Debug.Log("clicked on " + regionName);
+        //a bunch of checks
+    }
+
     void validateTurnFinishReady() 
     {
         Debug.Log("validating everything is ready for turn finish.");

@@ -289,4 +289,16 @@
             </NightsWatchVictoryHighestBidder>
         </WildlingCard>
     </WildlingCards>
+    <PlayerCardsLannister>
+    </PlayerCardsLannister>
+    <PlayerCardsBaratheon>
+    </PlayerCardsBaratheon>
+    <PlayerCardsStark>
+    </PlayerCardsStark>
+    <PlayerCardsGreyjoy>
+    </PlayerCardsGreyjoy>
+    <PlayerCardsTyrell>
+    </PlayerCardsTyrell>
+    <PlayerCardsMartell>
+    </PlayerCardsMartell>
 </GameDataCollection>
