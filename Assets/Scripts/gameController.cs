@@ -8,7 +8,7 @@ public class gameController : MonoBehaviour
     public Camera mainCamera;
     public int NumberOfPlayers = 6;
     public int CurrPlayer = 0;
-    string[] players;
+    Player[] players;
     public bool isTurnOver = false;
     public bool timeForWesteros = false;
     DataController DataController;
@@ -19,13 +19,13 @@ public class gameController : MonoBehaviour
     void Start()
     {
         // WestorosPhase();
-        players = new string[6];
-        players[0] = "Lannisters";
-        players[1] = "Baratheons";
-        players[2] = "Tyrells";
-        players[3] = "Martells";
-        players[4] = "Starks";
-        players[5] = "Greyjoys";
+        players = new Player[6];
+        players[0] = new Player("Lannisters", 5, null, 2, 2);
+        players[1] = new Player("Baratheons", 5, null, 2, 2);
+        players[2] = new Player("Tyrells", 5, null, 2, 2);
+        players[3] = new Player("Martells", 5, null, 2, 2);
+        players[4] = new Player("Starks", 5, null, 1, 2);
+        players[5] = new Player("Greyjoys", 5, null, 2, 2);
         DataController = GameObject.FindObjectOfType<DataController>();
         GameData = DataController.LoadGameData();
         ShuffleDeck(GameData);
@@ -85,10 +85,20 @@ public class gameController : MonoBehaviour
         Debug.Log("Westeros Phase INitiateing");
         Debug.Log("Westeros card I picked: " + GameData.WesterosCardsI[GameRoundNumber].Name);
         Debug.Log("Westeros card II picked: " + GameData.WesterosCardsII[GameRoundNumber].Name);
+        WesterosCard WesterosOne = GameData.WesterosCardsI[GameRoundNumber];
+        WesterosCard WesterosTwo = GameData.WesterosCardsII[GameRoundNumber];
+
+        ResolveCard(WesterosOne);
+        ResolveCard(WesterosTwo);
         GameRoundNumber += 1;
         if (GameRoundNumber == 10) {
             EndGameProtocol();
         }
+    }
+
+    void ResolveCard(WesterosCard card)
+    {
+
     }
 
     void EndGameProtocol() {
